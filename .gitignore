@@ -47,6 +47,13 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+CIGA 2022 Game Jam Trick/Client/Library
+CIGA 2022 Game Jam Trick/Client/Logs
+CIGA 2022 Game Jam Trick/Client/obj
+CIGA 2022 Game Jam Trick/Client/Temp
+CIGA 2022 Game Jam Trick/Client/.vsconfig
+CIGA 2022 Game Jam Trick/Client/Assembly-CSharp.csproj
+CIGA 2022 Game Jam Trick/Client/Client.sln
 
 # Unity3D generated file on crash reports
 sysinfo.txt
