@@ -1,0 +1,4 @@
+repository "CIGA 2022 Game Jam Trick@ssl://aiwenz@sh03-plasticscm.unity.cn:8787"
+  path "/"
+    smartbranch "/main/emily.aiwen" 
+     
