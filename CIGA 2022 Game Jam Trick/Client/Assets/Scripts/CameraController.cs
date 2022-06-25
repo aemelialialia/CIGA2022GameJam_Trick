@@ -29,6 +29,10 @@ public class CameraController : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (MainRole == null)
+        {
+            return;
+        }
         Vector3 rolePos = MainRole.transform.position;
         //  Vector3 targetPos = new Vector3(rolePos.x + 4, m_CacheCameraPos.y, m_CacheCameraPos.z);
         //  this.transform.position = Vector3.Lerp(transform.position, targetPos, Time.fixedDeltaTime * 3);
