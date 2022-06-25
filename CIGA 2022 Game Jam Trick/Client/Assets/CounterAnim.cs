@@ -8,22 +8,23 @@ public class CounterAnim : MonoBehaviour
 {
     public Text text;
     private Sequence mScoreSequence;
+    
     private int currentDist;
 
+    //[SerializeField]
+    //int type;
+
     private int remDistance { get; set; }
+    
 
     // Start is called before the first frame update
     void Start()
     {
         mScoreSequence = DOTween.Sequence();
         mScoreSequence.SetAutoKill(false);
+        
         remDistance = UpdateScore(2534);
-        IncreaseAnimation(0, remDistance);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        IncreaseKm(0, remDistance);
         
     }
 
@@ -42,7 +43,12 @@ public class CounterAnim : MonoBehaviour
     //    }
     //}
 
-    void IncreaseAnimation (int start, int end)
+    //int DeathCount(int death)
+    //{
+    //    return death++;
+    //}
+
+    void IncreaseKm (int start, int end)
     {
         mScoreSequence.Append(DOTween.To(delegate (float value)
         {
