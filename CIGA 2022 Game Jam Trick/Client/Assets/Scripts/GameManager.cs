@@ -10,8 +10,11 @@ public class GameManager : MonoBehaviour
     private static GameManager m_Instance;
     public MainRole m_MainRole;
     public Vector3 DiePos;
+    private Vector3 oriPos;
     private int m_PlayerId = 0;
     private InputManager Input;
+
+    public RebornView RebornView;
 
     public static GameManager GetInstance()
     {
@@ -25,6 +28,10 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Input = InputManager.GetInstance();
+        if (m_MainRole != null)
+        {
+            oriPos = m_MainRole.transform.position;
+        }
         //CreateRole(0.2f);
     }
 
@@ -36,7 +43,26 @@ public class GameManager : MonoBehaviour
             if(Input.GetButtonDown(m_PlayerId, InputAction.Reborn))
             {
                 CreateRole();
+                if (RebornView != null)
+                {
+                    RebornView.gameObject.SetActive(false);
+                }
             }
+        }
+    }
+
+    public float GetDistance()
+    {
+        return DiePos.x - oriPos.x;
+    }
+
+    public void NotifyDie()
+    {
+        DeathCount++;
+        if (RebornView != null)
+        {
+            RebornView.RefreshText();
+            RebornView.gameObject.SetActive(true);
         }
     }
 
