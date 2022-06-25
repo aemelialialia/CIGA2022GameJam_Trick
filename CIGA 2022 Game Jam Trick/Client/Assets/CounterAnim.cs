@@ -15,17 +15,17 @@ public class CounterAnim : MonoBehaviour
     //int type;
 
     private int remDistance { get; set; }
-    
+    public int Score;
 
     // Start is called before the first frame update
-    void Start()
+    private void OnEnable()
     {
         mScoreSequence = DOTween.Sequence();
         mScoreSequence.SetAutoKill(false);
-        
-        remDistance = UpdateScore(2534);
-        IncreaseKm(0, remDistance);
-        
+
+        Score = Mathf.Clamp(Score, 0, 5000);
+        //remDistance = UpdateScore(Score);
+        IncreaseKm(0, Score);
     }
 
     int UpdateScore(int score)

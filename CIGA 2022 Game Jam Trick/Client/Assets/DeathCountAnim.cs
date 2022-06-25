@@ -9,15 +9,14 @@ public class DeathCountAnim : MonoBehaviour
     public Text text;
     private Sequence deathSequence;
 
-    private int deaths { get; set; }
+    public int deaths { get; set; }
 
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
         deathSequence = DOTween.Sequence();
         deathSequence.SetAutoKill(false);
 
-        deaths = 5;
 
         IncreaseDeath(0, deaths);
     }

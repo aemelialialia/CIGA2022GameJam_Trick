@@ -98,7 +98,8 @@ public class MainRole : MonoBehaviour
     {
         GameManager.GetInstance().DiePos = transform.position;
         AudioManager.GetInstance().PlayCilp("dead");
-        GameManager.GetInstance().DeathCount++;
+
+        GameManager.GetInstance().NotifyDie();
         GameObject.Destroy(gameObject);
     }
 }
