@@ -8,7 +8,8 @@ public class GameManager : MonoBehaviour
     public Color CurrentPureBGColor = Color.white;
 
     private static GameManager m_Instance;
-    private MainRole m_MainRole;
+    public MainRole m_MainRole;
+    public Vector3 DiePos;
     private int m_PlayerId = 0;
     private InputManager Input;
 
@@ -34,19 +35,19 @@ public class GameManager : MonoBehaviour
         {
             if(Input.GetButtonDown(m_PlayerId, InputAction.Reborn))
             {
-                CreateRole(0.05f);
+                CreateRole();
             }
         }
     }
 
-    public void CreateRole(float rebornX)
+    public void CreateRole()
     {
         GameObject go = Resources.Load("MainRole") as GameObject;
         if (go != null)
         {
             go = GameObject.Instantiate(go);
-            Vector3 pos = Camera.main.ViewportToWorldPoint(new Vector3(rebornX, 0.6f, 0));
-            go.transform.position = new Vector3(pos.x,pos.y,0);
+            Vector3 pos = Camera.main.ViewportToWorldPoint(new Vector3(0, 0.6f, 0));
+            go.transform.position = new Vector3(DiePos.x - 0.5f, pos.y,0);
 
             MainRole mainRole = go.GetComponent<MainRole>();
             if (mainRole != null)
