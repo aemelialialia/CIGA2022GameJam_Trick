@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Input = InputManager.GetInstance();
-        CreateRole(0.2f);
+        //CreateRole(0.2f);
     }
 
     // Update is called once per frame

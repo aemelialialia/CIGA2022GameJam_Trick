@@ -2,27 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ReverseJump : MonoBehaviour
+public class LevelAntiGravity : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
         if (other != null && other.transform != null)
         {
-            MainRole role = other.transform.GetComponent<MainRole>();
-            if (role)
+            MainRole mainRole = other.transform.GetComponent<MainRole>();
+            if (mainRole)
             {
-                role.SetReverseJump(true);
+                Physics.gravity = -Physics.gravity;
             }
         }
     }
+
     private void OnTriggerExit(Collider other)
     {
         if (other != null && other.transform != null)
         {
-            MainRole role = other.transform.GetComponent<MainRole>();
-            if (role)
+            MainRole mainRole = other.transform.GetComponent<MainRole>();
+            if (mainRole)
             {
-                role.SetReverseJump(false);
+                Physics.gravity = -Physics.gravity;
             }
         }
     }
