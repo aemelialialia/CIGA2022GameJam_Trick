@@ -2,5 +2,6 @@
 	None = 0,
 	Jump,
     MoveX,
-    MoveY
+    MoveY,
+    Reborn,
 }

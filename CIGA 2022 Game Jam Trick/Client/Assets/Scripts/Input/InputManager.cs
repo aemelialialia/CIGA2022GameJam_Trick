@@ -34,6 +34,10 @@ public class InputManager : MonoBehaviour
     [SerializeField]
     private string _moveYAxis = "Vertical";
 
+
+    [SerializeField]
+    private string _Reborn = "Reborn";
+
     private Dictionary<int, string>[] _actions;
 
     private bool m_Active;
@@ -53,6 +57,7 @@ public class InputManager : MonoBehaviour
             AddAction(InputAction.Jump, prefix + _jumpAxis, playerActions);
             AddAction(InputAction.MoveX, prefix + _moveXAxis, playerActions);
             AddAction(InputAction.MoveY, prefix + _moveYAxis, playerActions);
+            AddAction(InputAction.Reborn, prefix + _Reborn, playerActions);
             //Debug.Log (prefix);
         }
         m_Active = true;
