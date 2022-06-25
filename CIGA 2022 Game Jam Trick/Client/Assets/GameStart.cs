@@ -12,7 +12,9 @@ public class GameStart : MonoBehaviour
     private float fadeSpeed;
     private CanvasGroup group;
     private int currentScene;
-    
+
+    private bool m_Launcher;
+    private float m_LauncherGameTick;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +38,16 @@ public class GameStart : MonoBehaviour
         {
             //Debug.Log("Space bar pressed.");
             canFade = true;
+            m_Launcher = true;
+        }
+        if (m_Launcher)
+        {
+            m_LauncherGameTick += Time.deltaTime;
+            if (m_LauncherGameTick >= 0.5f)
+            {
+                SceneManager.LoadScene("MainScene");
+                m_Launcher = false;
+            }
         }
 
         if (canFade == true && group.alpha != 0.0f)
