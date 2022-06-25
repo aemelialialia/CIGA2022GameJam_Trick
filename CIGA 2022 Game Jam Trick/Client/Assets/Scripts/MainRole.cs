@@ -46,6 +46,7 @@ public class MainRole : MonoBehaviour
             m_Rigidbody.AddForce(new Vector3(0, m_ReverseJump ? -JumpForce : JumpForce, 0));
             m_Rigidbody.velocity = Vector3.zero;
             m_State = ECharacterState.Jump;
+            AudioManager.GetInstance().PlayCilp("jump");
             StartCoroutine(JumpToIdle());
         }
         UpdatePhysics();
@@ -95,6 +96,7 @@ public class MainRole : MonoBehaviour
 
     private void Die()
     {
+        AudioManager.GetInstance().PlayCilp("dead");
         GameManager.GetInstance().DeathCount++;
         GameObject.Destroy(gameObject);
     }
