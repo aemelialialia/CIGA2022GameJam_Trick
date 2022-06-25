@@ -5,11 +5,13 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public int DeathCount = 0;
+    public Color CurrentPureBGColor = Color.white;
 
     private static GameManager m_Instance;
     private MainRole m_MainRole;
     private int m_PlayerId = 0;
     private InputManager Input;
+
     public static GameManager GetInstance()
     {
         return m_Instance;
