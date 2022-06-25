@@ -35,5 +35,10 @@ public class GameStart : MonoBehaviour
             group.alpha = Mathf.Lerp(group.alpha, 0.0f, fadeSpeed * Time.deltaTime);
             //Debug.Log("Fading");
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }
