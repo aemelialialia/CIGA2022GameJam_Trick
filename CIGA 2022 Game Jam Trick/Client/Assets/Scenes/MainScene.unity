@@ -598,25 +598,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b45a884f8e09f5488359878def43d2c, type: 3}
---- !u!1 &1903271808 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5553278545484394973, guid: 408743344ce41e541bc7ef6bc6a7ad50,
-    type: 3}
-  m_PrefabInstance: {fileID: 2979769622923647630}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1903271812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1903271808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1225132925b7c614e88ba5a139869e1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AudioClip: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
 --- !u!1001 &2979769622923647630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -624,11 +605,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1166015827061084522, guid: 408743344ce41e541bc7ef6bc6a7ad50,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 15.11
-      objectReference: {fileID: 0}
     - target: {fileID: 1618737085368712365, guid: 408743344ce41e541bc7ef6bc6a7ad50,
         type: 3}
       propertyPath: m_RootOrder
@@ -688,11 +664,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LevelAntiGravity
-      objectReference: {fileID: 0}
-    - target: {fileID: 5553278545484394973, guid: 408743344ce41e541bc7ef6bc6a7ad50,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 408743344ce41e541bc7ef6bc6a7ad50, type: 3}
