@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 20457660894eba74196ae019e626fe60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7978614266185904499
+    second: yellow_anim_0
+  - first:
+      213: 8122959603962946798
+    second: yellow_anim_1
+  - first:
+      213: -9041711129531178250
+    second: yellow_anim_2
+  - first:
+      213: -4294291495662488206
+    second: yellow_anim_3
+  - first:
+      213: -1759393262170142578
+    second: yellow_anim_4
+  - first:
+      213: -3001117766934515659
+    second: yellow_anim_5
+  - first:
+      213: -3953755597389808765
+    second: yellow_anim_6
+  - first:
+      213: -8450659650849346984
+    second: yellow_anim_7
+  - first:
+      213: -319858350140765421
+    second: yellow_anim_8
+  - first:
+      213: 2133071938534617495
+    second: yellow_anim_9
+  - first:
+      213: 7107871187760138112
+    second: yellow_anim_10
+  - first:
+      213: -760701635235538867
+    second: yellow_anim_11
+  - first:
+      213: -2122045089987048347
+    second: yellow_anim_12
+  - first:
+      213: 6333826170880340155
+    second: yellow_anim_13
+  - first:
+      213: 2169338119769455049
+    second: yellow_anim_14
+  - first:
+      213: -6847108144760752566
+    second: yellow_anim_15
+  - first:
+      213: 683851553109743150
+    second: yellow_anim_17
+  - first:
+      213: -137014006723719344
+    second: yellow_anim_20
+  - first:
+      213: 7151631160029884869
+    second: yellow_anim_22
+  - first:
+      213: -1155420059188989195
+    second: yellow_anim_24
+  - first:
+      213: 7064383436390328021
+    second: yellow_anim_25
+  - first:
+      213: -8887213721161900463
+    second: yellow_anim_31
+  - first:
+      213: 912465439444655630
+    second: yellow_anim_32
+  - first:
+      213: -8919353461249630608
+    second: yellow_anim_33
+  - first:
+      213: -5457178938684827785
+    second: yellow_anim_34
+  - first:
+      213: -8150402672735331143
+    second: yellow_anim_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yellow_anim_0
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 3447
+        width: 558
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371ffdf076bb9be60800000000000000
+      internalID: 7978614266185904499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_1
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 3447
+        width: 558
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee42f07f8bc8ab070800000000000000
+      internalID: 8122959603962946798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_2
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 3443
+        width: 559
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2299af1a3658280800000000000000
+      internalID: -9041711129531178250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_3
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 3455
+        width: 609
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2757e0703ac9764c0800000000000000
+      internalID: -4294291495662488206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_4
+      rect:
+        serializedVersion: 2
+        x: 4564
+        y: 3455
+        width: 610
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88022456216597e0800000000000000
+      internalID: -1759393262170142578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_5
+      rect:
+        serializedVersion: 2
+        x: 5463
+        y: 3432
+        width: 609
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53031c4aa43e956d0800000000000000
+      internalID: -3001117766934515659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_6
+      rect:
+        serializedVersion: 2
+        x: 6365
+        y: 3455
+        width: 609
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b3ed86b307129c0800000000000000
+      internalID: -3953755597389808765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_7
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 2381
+        width: 562
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ae56132d939ba80800000000000000
+      internalID: -8450659650849346984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_8
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 2385
+        width: 558
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bca657682af8bf0800000000000000
+      internalID: -319858350140765421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_9
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 2403
+        width: 554
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791b5b860a13a9d10800000000000000
+      internalID: 2133071938534617495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_10
+      rect:
+        serializedVersion: 2
+        x: 3682
+        y: 2403
+        width: 554
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0874da7af2b34a260800000000000000
+      internalID: 7107871187760138112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_11
+      rect:
+        serializedVersion: 2
+        x: 4584
+        y: 2412
+        width: 593
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d481ab3a4e17175f0800000000000000
+      internalID: -760701635235538867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_12
+      rect:
+        serializedVersion: 2
+        x: 5486
+        y: 2420
+        width: 551
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cc5f5db3bfc82e0800000000000000
+      internalID: -2122045089987048347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_13
+      rect:
+        serializedVersion: 2
+        x: 6387
+        y: 2447
+        width: 529
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb03568285546e750800000000000000
+      internalID: 6333826170880340155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_14
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1381
+        width: 537
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9729ab6890b1e10800000000000000
+      internalID: 2169338119769455049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_15
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1363
+        width: 519
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46f9dc7b6f2af0a0800000000000000
+      internalID: -6847108144760752566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_17
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 1372
+        width: 519
+        height: 689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2694364d578d7900800000000000000
+      internalID: 683851553109743150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_20
+      rect:
+        serializedVersion: 2
+        x: 3674
+        y: 1334
+        width: 515
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fcaff9c7a391ef0800000000000000
+      internalID: -137014006723719344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_22
+      rect:
+        serializedVersion: 2
+        x: 4565
+        y: 1351
+        width: 519
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1323a26a2bf3360800000000000000
+      internalID: 7151631160029884869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_24
+      rect:
+        serializedVersion: 2
+        x: 5486
+        y: 1350
+        width: 524
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2fdade39f17ffe0800000000000000
+      internalID: -1155420059188989195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_25
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 1346
+        width: 552
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6e2338e4bb90260800000000000000
+      internalID: 7064383436390328021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_31
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 432
+        width: 554
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15eda2305364aa480800000000000000
+      internalID: -8887213721161900463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_32
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 428
+        width: 554
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e5be39b7ab9ac00800000000000000
+      internalID: 912465439444655630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_33
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 428
+        width: 557
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e9014a847183480800000000000000
+      internalID: -8919353461249630608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_34
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 428
+        width: 558
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77792fb2ba43444b0800000000000000
+      internalID: -5457178938684827785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellow_anim_35
+      rect:
+        serializedVersion: 2
+        x: 4564
+        y: 428
+        width: 555
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc573ba3f3f3ee80800000000000000
+      internalID: -8150402672735331143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b196d0dd0701c874bb6ba235acf4dca5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

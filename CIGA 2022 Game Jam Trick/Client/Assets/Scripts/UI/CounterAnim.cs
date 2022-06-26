@@ -24,29 +24,9 @@ public class CounterAnim : MonoBehaviour
         mScoreSequence.SetAutoKill(false);
 
         Score = Mathf.Clamp(Score, 0, 5000);
-        //remDistance = UpdateScore(Score);
+
         IncreaseKm(0, Score);
     }
-
-    int UpdateScore(int score)
-    {
-        return remDistance = 5000 - score;
-    }
-
-    //int CalculateDist (int dist)
-    //{
-    //    if (remDistance == 0) {
-    //        return currentDist = 5000;
-    //    } else
-    //    {
-    //        return currentDist += Mathf.FloorToInt(2 * Time.deltaTime);
-    //    }
-    //}
-
-    //int DeathCount(int death)
-    //{
-    //    return death++;
-    //}
 
     void IncreaseKm (int start, int end)
     {
