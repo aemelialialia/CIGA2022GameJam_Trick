@@ -109,6 +109,10 @@ public class MainRole : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if(player == null)
+        {
+            player = GetComponent<Animator>();
+        }
         if (other !=null && player!=null)
         {
             if (other.CompareTag("Yellow"))
