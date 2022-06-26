@@ -6,6 +6,7 @@ using UnityEngine;
 public class LevelPlayAudio : MonoBehaviour
 {
     public AudioClip AudioClip;
+    public float Volume = 1f;
     private AudioSource m_CurrentAudioSource;
     private void Start()
     {
@@ -18,7 +19,7 @@ public class LevelPlayAudio : MonoBehaviour
             MainRole role = other.transform.GetComponent<MainRole>();
             if (role && AudioClip && m_CurrentAudioSource)
             {
-                m_CurrentAudioSource.PlayOneShot(AudioClip);
+                m_CurrentAudioSource.PlayOneShot(AudioClip, Volume);
             }
         }
     }
