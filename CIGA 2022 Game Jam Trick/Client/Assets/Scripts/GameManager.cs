@@ -93,14 +93,14 @@ public class GameManager : MonoBehaviour
     {
         if (MainView)
         {
-            MainView.ReverseSpace();
+            MainView.ReverseSpace(true);
         }
     }
     public void OnExitAntiGravityArea()
     {
         if (MainView)
         {
-            MainView.ReverseSpace();
+            MainView.ReverseSpace(false);
         }
     }
     public void CreateRole()

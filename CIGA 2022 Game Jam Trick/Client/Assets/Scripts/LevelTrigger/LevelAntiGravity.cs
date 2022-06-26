@@ -11,7 +11,7 @@ public class LevelAntiGravity : MonoBehaviour
             MainRole mainRole = other.transform.GetComponent<MainRole>();
             if (mainRole)
             {
-                Physics.gravity = -Physics.gravity;
+                Physics.gravity = new Vector3(0, 9.8f, 0);
                 GameManager.GetInstance().OnEnterAntiGravityArea();
             }
         }
@@ -24,7 +24,7 @@ public class LevelAntiGravity : MonoBehaviour
             MainRole mainRole = other.transform.GetComponent<MainRole>();
             if (mainRole)
             {
-                Physics.gravity = -Physics.gravity;
+                Physics.gravity = new Vector3(0, -9.8f, 0);
                 GameManager.GetInstance().OnExitAntiGravityArea();
             }
         }

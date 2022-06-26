@@ -100,6 +100,7 @@ public class MainRole : MonoBehaviour
 
     private void Die()
     {
+        Physics.gravity = new Vector3(0, -9.8f, 0);
         GameManager.GetInstance().DiePos = transform.position;
         AudioManager.GetInstance().PlayCilp("dead");
 

@@ -13,11 +13,11 @@ public class MainView : MonoBehaviour
         
     }
 
-    public void ReverseSpace()
+    public void ReverseSpace(bool reverse)
     {
         if (TutorialTran != null)
         {
-            TutorialTran.localScale = new Vector3(TutorialTran.localScale.x, -TutorialTran.localScale.y, TutorialTran.localScale.z);
+            TutorialTran.localScale = new Vector3(TutorialTran.localScale.x, reverse? - TutorialTran.localScale.y : TutorialTran.localScale.y, TutorialTran.localScale.z);
         }
     }
 
