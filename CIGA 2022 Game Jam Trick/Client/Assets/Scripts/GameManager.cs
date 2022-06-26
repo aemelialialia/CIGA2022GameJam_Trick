@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     private int m_PlayerId = 0;
     private InputManager Input;
 
+    public MainView MainView;
+
     public RebornView RebornView;
 
     public static GameManager GetInstance()
@@ -48,13 +50,29 @@ public class GameManager : MonoBehaviour
                 {
                     RebornView.gameObject.SetActive(false);
                 }
+
+                if (MainView)
+                {
+                    MainView.gameObject.SetActive(true);
+                }
+
+                AudioManager.GetInstance().PlayCilp("Reborn");
             }
         }
     }
 
-    public float GetDistance()
+    public float GetDieDistance()
     {
         return DiePos.x - oriPos.x;
+    }
+
+    public float GetCurrentDistance()
+    {
+        if (m_MainRole != null)
+        {
+            return m_MainRole.transform.position.x - oriPos.x;
+        }
+        return 0;
     }
 
     public void NotifyDie()
@@ -65,15 +83,25 @@ public class GameManager : MonoBehaviour
             RebornView.RefreshText();
             RebornView.gameObject.SetActive(true);
         }
+        if (MainView)
+        {
+            MainView.gameObject.SetActive(false);
+        }
     }
 
     public void OnEnterAntiGravityArea()
     {
-
+        if (MainView)
+        {
+            MainView.ReverseSpace();
+        }
     }
     public void OnExitAntiGravityArea()
     {
-
+        if (MainView)
+        {
+            MainView.ReverseSpace();
+        }
     }
     public void CreateRole()
     {

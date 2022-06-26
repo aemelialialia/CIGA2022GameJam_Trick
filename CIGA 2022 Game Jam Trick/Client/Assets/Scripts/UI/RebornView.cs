@@ -16,7 +16,7 @@ public class RebornView : MonoBehaviour
 
     public void RefreshText()
     {
-        float distance = GameManager.GetInstance().GetDistance();
+        float distance = GameManager.GetInstance().GetDieDistance();
         CountAnim.Score = (int)(distance * 100);
 
         DeathAnim.deaths = GameManager.GetInstance().DeathCount;
