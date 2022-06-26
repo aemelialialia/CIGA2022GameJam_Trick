@@ -14,6 +14,7 @@ public class DeathCountAnim : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
+        deaths = GameManager.GetInstance().DeathCount;
         deathSequence = DOTween.Sequence();
         deathSequence.SetAutoKill(false);
 
