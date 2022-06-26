@@ -75,9 +75,9 @@ public class GameStart : MonoBehaviour
                 //Debug.Log("Fading");
             }
 
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Q))
             {
-                Application.Quit();
+                SceneManager.LoadScene("StartGame");
             }
         }
     }
