@@ -23,7 +23,7 @@ public class CounterAnim : MonoBehaviour
         mScoreSequence = DOTween.Sequence();
         mScoreSequence.SetAutoKill(false);
 
-        Score = Mathf.Clamp(Score, 0, 5000);
+       // Score = Mathf.Clamp(Score, 0, 5000);
 
         IncreaseKm(0, Score);
     }

@@ -22,8 +22,22 @@ public class LevelColorTrigger : MonoBehaviour
                     MeshRenderer thisMesh = GetComponent<MeshRenderer>();
                     if (thisMesh != null)
                     {
-                        Color color = thisMesh.sharedMaterial.GetColor("_Color");
-                        MeshRenderer mesh = m_BackGround.GetComponent<MeshRenderer>();
+                        Color color = Color.white;
+
+                        switch (gameObject.tag)
+                        {
+                            case "Blue":
+                                color = new Color(0, 0, 1);
+                                break;
+                            case "Red":
+                                color = new Color(1, 0, 0);
+                                break;
+                            case "Yellow":
+                                color = new Color(1, 1, 0);
+                                break;
+                        }
+
+                        Renderer mesh = m_BackGround.GetComponent<Renderer>();
                         if (mesh != null)
                         {
                             mesh.material.SetColor("_Color", color);
