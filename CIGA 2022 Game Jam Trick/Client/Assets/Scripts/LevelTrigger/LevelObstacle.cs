@@ -25,7 +25,7 @@ public class LevelObstacle : MonoBehaviour
     {
         if (other != null && other.transform != null)
         {
-            if(m_CurrentColor == GameManager.GetInstance().CurrentPureBGColor)
+             if(m_CurrentColor == GameManager.GetInstance().CurrentPureBGColor)
             {
                 return;
             }

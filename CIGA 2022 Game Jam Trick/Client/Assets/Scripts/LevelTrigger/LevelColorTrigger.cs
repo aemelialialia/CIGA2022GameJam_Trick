@@ -27,13 +27,13 @@ public class LevelColorTrigger : MonoBehaviour
                         switch (gameObject.tag)
                         {
                             case "Blue":
-                                color = new Color(0, 0, 1);
+                                color = new Color(47/255f, 93/255f, 178/255f);
                                 break;
                             case "Red":
                                 color = new Color(1, 0, 0);
                                 break;
                             case "Yellow":
-                                color = new Color(1, 1, 0);
+                                color = new Color(255/255f, 184/255f, 52/255f);
                                 break;
                         }
 
