@@ -55,6 +55,8 @@ public class GameManager : MonoBehaviour
                 {
                     MainView.gameObject.SetActive(true);
                 }
+
+                AudioManager.GetInstance().PlayCilp("Reborn");
             }
         }
     }
