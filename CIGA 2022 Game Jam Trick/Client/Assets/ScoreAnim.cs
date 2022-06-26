@@ -4,15 +4,13 @@ using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
 
-public class CounterAnim : MonoBehaviour
+public class ScoreAnim : MonoBehaviour
 {
     public Text text;
     private Sequence mScoreSequence;
-    
+
     private int currentDist;
 
-    //[SerializeField]
-    //int type;
 
     private int remDistance { get; set; }
     public int Score;
@@ -23,12 +21,17 @@ public class CounterAnim : MonoBehaviour
         mScoreSequence = DOTween.Sequence();
         mScoreSequence.SetAutoKill(false);
 
-        Score = Mathf.Clamp(Score, 0, 5000);
-
+        //Score = Mathf.Clamp(Score, 0, 5000);
         IncreaseKm(0, Score);
     }
 
-    void IncreaseKm (int start, int end)
+    int UpdateScore(int score)
+    {
+        return remDistance = 5000 - score;
+    }
+
+
+    void IncreaseKm(int start, int end)
     {
         mScoreSequence.Append(DOTween.To(delegate (float value)
         {
