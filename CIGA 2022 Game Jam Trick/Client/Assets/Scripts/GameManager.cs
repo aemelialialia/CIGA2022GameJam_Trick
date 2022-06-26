@@ -117,6 +117,7 @@ public class GameManager : MonoBehaviour
             {
                 CameraController.GetInstance().MainRole = mainRole;
             }
+            m_MainRole = mainRole;
         }
     }
 }

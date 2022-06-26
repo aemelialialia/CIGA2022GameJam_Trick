@@ -109,7 +109,7 @@ public class MainRole : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other !=null)
+        if (other !=null && player!=null)
         {
             if (other.CompareTag("Yellow"))
             {
