@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     private int m_PlayerId = 0;
     private InputManager Input;
 
+    public MainView MainView;
+
     public RebornView RebornView;
 
     public static GameManager GetInstance()
@@ -52,9 +54,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public float GetDistance()
+    public float GetDieDistance()
     {
         return DiePos.x - oriPos.x;
+    }
+
+    public float GetCurrentDistance()
+    {
+        if (m_MainRole != null)
+        {
+            return m_MainRole.transform.position.x - oriPos.x;
+        }
+        return 0;
     }
 
     public void NotifyDie()
@@ -69,11 +80,17 @@ public class GameManager : MonoBehaviour
 
     public void OnEnterAntiGravityArea()
     {
-
+        if (MainView)
+        {
+            MainView.ReverseSpace();
+        }
     }
     public void OnExitAntiGravityArea()
     {
-
+        if (MainView)
+        {
+            MainView.ReverseSpace();
+        }
     }
     public void CreateRole()
     {

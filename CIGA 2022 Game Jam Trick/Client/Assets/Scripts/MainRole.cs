@@ -10,9 +10,9 @@ public enum ECharacterState
 public class MainRole : MonoBehaviour
 {
     #region Public
-    public float Speed = 5;
-    public float JumpForce = 1;
-    public float JumpInterval = 1;
+    public float Speed = 2;
+    public float JumpForce = 300;
+    public float JumpInterval = 0.8f;
     #endregion
 
     private ECharacterState m_State;
