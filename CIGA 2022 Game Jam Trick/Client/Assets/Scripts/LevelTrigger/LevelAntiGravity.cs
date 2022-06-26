@@ -12,6 +12,7 @@ public class LevelAntiGravity : MonoBehaviour
             if (mainRole)
             {
                 Physics.gravity = -Physics.gravity;
+                GameManager.GetInstance().OnEnterAntiGravityArea();
             }
         }
     }
@@ -24,6 +25,7 @@ public class LevelAntiGravity : MonoBehaviour
             if (mainRole)
             {
                 Physics.gravity = -Physics.gravity;
+                GameManager.GetInstance().OnExitAntiGravityArea();
             }
         }
     }
