@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public int DeathCount = 0;
-    public Color CurrentPureBGColor = Color.white;
+    public Color CurrentPureBGColor = Color.black;
 
     private static GameManager m_Instance;
     public MainRole m_MainRole;
@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         m_Instance = this;
+        CurrentPureBGColor = Color.black;
     }
     // Start is called before the first frame update
     void Start()
@@ -66,6 +67,14 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void OnEnterAntiGravityArea()
+    {
+
+    }
+    public void OnExitAntiGravityArea()
+    {
+
+    }
     public void CreateRole()
     {
         GameObject go = Resources.Load("MainRole") as GameObject;
