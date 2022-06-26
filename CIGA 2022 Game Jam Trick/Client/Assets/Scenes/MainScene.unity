@@ -7517,6 +7517,7 @@ GameObject:
   - component: {fileID: 1612510801}
   - component: {fileID: 1612510800}
   - component: {fileID: 1612510803}
+  - component: {fileID: 1612510804}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7602,6 +7603,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainRole: {fileID: 522962445}
+--- !u!114 &1612510804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612510799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdcd5643a131c64aae2207c906c241d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloomShader: {fileID: 4800000, guid: b839db3a9abc389428513effc6d7d5ed, type: 3}
+  iterations: 3
+  blurSpread: 0.6
+  luminanceThreshold: 0.6
+  bloomFactor: 1
+  bloomColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1637735087 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5352339486224720220, guid: 4f24a9454a74ce04896ae1beb6014311,
