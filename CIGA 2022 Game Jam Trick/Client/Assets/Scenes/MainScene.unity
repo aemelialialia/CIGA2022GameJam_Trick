@@ -191,7 +191,7 @@ MonoBehaviour:
   CurrentPureBGColor: {r: 1, g: 1, b: 1, a: 1}
   m_MainRole: {fileID: 1069762030}
   DiePos: {x: 0, y: 0, z: 0}
-  MainView: {fileID: 0}
+  MainView: {fileID: 8729260854090609733}
   RebornView: {fileID: 1312479236}
 --- !u!1 &122015095
 GameObject:
@@ -1113,7 +1113,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:

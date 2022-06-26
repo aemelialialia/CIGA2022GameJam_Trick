@@ -50,6 +50,11 @@ public class GameManager : MonoBehaviour
                 {
                     RebornView.gameObject.SetActive(false);
                 }
+
+                if (MainView)
+                {
+                    MainView.gameObject.SetActive(true);
+                }
             }
         }
     }
@@ -75,6 +80,10 @@ public class GameManager : MonoBehaviour
         {
             RebornView.RefreshText();
             RebornView.gameObject.SetActive(true);
+        }
+        if (MainView)
+        {
+            MainView.gameObject.SetActive(false);
         }
     }
 
