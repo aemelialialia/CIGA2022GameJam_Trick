@@ -24,6 +24,8 @@ public class MainRole : MonoBehaviour
     private int m_PlayerId = 0;
 
     private bool m_ReverseJump;
+
+    private Animator player;
     // Start is called before the first frame update
     
     void Start()
@@ -35,6 +37,8 @@ public class MainRole : MonoBehaviour
         m_ReverseJump = false;
         m_Camera = Camera.main;
         m_CamTransform = m_Camera.transform;
+
+        player = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -101,5 +105,35 @@ public class MainRole : MonoBehaviour
 
         GameManager.GetInstance().NotifyDie();
         GameObject.Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other !=null)
+        {
+            if (other.CompareTag("Yellow"))
+            {
+                Debug.Log("it's yellow");
+                player.SetBool("isYellow", true);
+                player.SetBool("isBlue", false);
+                player.SetBool("isRed", false);
+            }
+
+            if (other.CompareTag("Blue"))
+            {
+                Debug.Log("it's blue");
+                player.SetBool("isBlue", true);
+                player.SetBool("isYellow", false);
+                player.SetBool("isRed", false);
+            }
+
+            if (other.CompareTag("Red"))
+            {
+                Debug.Log("it's red");
+                player.SetBool("isRed", true);
+                player.SetBool("isBlue", false);
+                player.SetBool("isYellow", false);
+            }
+        }
     }
 }
